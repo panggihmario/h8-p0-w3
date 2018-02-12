@@ -4,7 +4,7 @@ function cariMean(arr) {
   for(var i =0;i<arr.length;i++){
     num+=arr[i]
   }
-  hasil=Math.round(num/arr.length)
+   var hasil=Math.round(num/arr.length)
   return hasil
 }
 
